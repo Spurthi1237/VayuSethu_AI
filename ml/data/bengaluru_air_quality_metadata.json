@@ -1,0 +1,54 @@
+{
+  "dataset_name": "Bengaluru Hourly Air Quality Dataset",
+  "data_provenance": "Open-Meteo / Copernicus Atmosphere Monitoring Service (CAMS) atmospheric model data",
+  "station_type": "Modelled Grid Simulation (NOT physical ground-station sensor measurements)",
+  "coordinates": {
+    "latitude": 13.0,
+    "longitude": 77.600006,
+    "elevation_m": 910.0,
+    "timezone": "Asia/Kolkata"
+  },
+  "total_rows": 2328,
+  "date_range": {
+    "start": "2026-08-15T00:00",
+    "end": "2026-11-19T23:00"
+  },
+  "columns": [
+    "timestamp",
+    "pm2_5_ugm3",
+    "pm10_ugm3",
+    "nitrogen_dioxide_ugm3",
+    "sulphur_dioxide_ugm3",
+    "ozone_ugm3",
+    "carbon_monoxide_ugm3"
+  ],
+  "units": {
+    "time": "iso8601",
+    "pm2_5": "μg/m³",
+    "pm10": "μg/m³",
+    "nitrogen_dioxide": "μg/m³",
+    "sulphur_dioxide": "μg/m³",
+    "ozone": "μg/m³",
+    "carbon_monoxide": "μg/m³"
+  },
+  "duplicate_timestamps_found": 0,
+  "duplicate_timestamps": [],
+  "missing_values": {
+    "pm2_5": 6,
+    "pm10": 6,
+    "nitrogen_dioxide": 6,
+    "sulphur_dioxide": 6,
+    "ozone": 6,
+    "carbon_monoxide": 6
+  },
+  "invalid_negative_values": {
+    "pm2_5": 0,
+    "pm10": 0,
+    "nitrogen_dioxide": 0,
+    "sulphur_dioxide": 0,
+    "ozone": 0,
+    "carbon_monoxide": 0
+  },
+  "missing_values_silently_filled": false,
+  "collection_timestamp_utc": "2026-11-15T07:15:30.286881+00:00"
+}
